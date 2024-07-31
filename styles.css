@@ -1,1 +1,30 @@
 /*  your css code here. If applicable */
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: #a64ca6;
+    margin: 0;
+}
+
+#buttons {
+    display: flex;
+    gap: 10px;
+}
+
+.btn {
+    padding: 20px;
+    font-size: 16px;
+    background-color: #6b2e6b;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    text-transform: capitalize;
+}
+
+.btn.stop {
+    background-color: #444;
+}
